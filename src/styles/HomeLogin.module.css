@@ -1,0 +1,99 @@
+.container {
+  height: 100vh;
+
+  background: #21262D;
+  color: #fff;
+}
+
+.container > img{
+  position: absolute;
+  height: 60%;
+  left: -1%;
+}
+
+@media(max-width: 992px) {
+  .container > img{
+    height: 30%;
+   
+  }
+
+}
+.container section {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 100vh;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 0rem 2rem;
+}
+
+.container section img {
+  height: 80px;
+  width: 400px;
+
+  margin-bottom: 4.5rem;
+
+}
+
+.container h1 {
+  line-height: 1.4;
+
+  font-weight: 600;
+  font-size: 2.4rem;
+
+  margin-bottom: 1.2rem;
+}
+
+.container .textLogin {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1.6rem;
+}
+
+.container .textLogin p {
+  max-width: 60%;
+  line-height: 1.4;
+  color: #C9D1D9;
+  font-size: 1.1rem;
+
+  margin-left: 1rem;
+
+}
+
+.container .inputContainer {
+  display: flex;
+}
+
+.container .inputContainer input {
+  background: linear-gradient(90deg, #0D1117, transparent);
+    
+  border: none;
+  border-radius: 5px 0 0 5px;
+
+  font-size: 1.2rem;
+  color: var(--text-blue);
+  line-height: 2rem;
+
+  padding-left: 1rem;
+
+  outline: none;
+}
+
+.container .inputContainer input:focus {
+  outline: #6E40C9 solid thin;
+}
+
+.container .inputContainer button {
+  background: #5931A9;
+
+  border: none;
+  border-radius: 0 5px 5px 0;
+
+  width: 4rem;
+  height: 4rem;
+}
